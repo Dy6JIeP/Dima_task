@@ -1,0 +1,31 @@
+.left-bar {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	border: 1.5px solid grey;
+	border-radius: 6px;
+	padding: 15px;
+}
+.kartinki {
+	width: 195px;
+	position: relative;
+	margin-right: 5px;
+	}
+
+.kartinki img {
+	border-radius: 6px;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	height: 150px;
+	transition: 2s;
+	border-radius: 6px;
+}
+
+.bg:hover {
+	background: none;
+	transition: 2s;
+}
